@@ -24,7 +24,7 @@ export default class  Author extends React.Component{
               
           
           
-          <img src={require('../img/profile.jpg')}  alt='profile pic'/>
+          {/* <img src={require('../img/profile.jpg')}  alt='profile pic'/> */}
 
           <ul className='contacts'>
                 <li>

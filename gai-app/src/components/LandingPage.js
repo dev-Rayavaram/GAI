@@ -1,8 +1,18 @@
 import React from 'react'
 import Author from './Author'
+import "../Style/Home.scss"
 
-const summary = <div className='summary'>
-                    <p>" Can international human rights help guide and govern artificial intelligence (AI)?
+
+
+
+function LandingPage(){
+    return(
+        <div id='landing-page-main-div'>
+            <h1 id='title-landing-page'> 
+            Governing Artificial Intelligence:Upholding Human Rights & Dignity
+            </h1>
+            <div id='summary-landing-page-div'>
+                    <p id="summary-landing-page-p">" Can international human rights help guide and govern artificial intelligence (AI)?
                     Currently, much of society is uncertain about the real human impacts of AI systems.
                     Amid hopes that AI can bring forth “global good” there is evidence that some AI sys-
                     tems are already violating fundamental rights and freedoms. As stakeholders look for
@@ -15,19 +25,7 @@ const summary = <div className='summary'>
                     </p>
                 </div>
 
-
-function LandingPage(){
-    return(
-        <div className='landing-Page'>
-            <h1 className='title'> 
-            Governing Artificial Intelligence:Upholding Human Rights & Dignity
-            </h1>
-
-            {summary}
-
             <Author />
-           
-
         </div>
     )
 }
