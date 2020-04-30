@@ -1,10 +1,10 @@
 @import  "ReusableComponents";
 
+//LandingPage.js
 #landing-page-main-div{
-display:flex;
-flex-direction: column;
-flex-wrap: wrap;
+@include display-main-par();
 align-items: center;
+flex-direction: column;
 margin: 55px;
 }
 #summary-title-landing-page-div{
@@ -27,3 +27,17 @@ font-size: 25px;
 font-weight: 200;
 color:$blue-text;
 }
+
+//Author.js
+
+#author-div{
+    @include display-main-par();
+}
+#author-name-h1
+#bio-and-photo-div
+#bio-p
+#data-and-society-link
+#author-photo
+#author-contacts-ul
+.author-contacts-li
+.author-contacts-links

@@ -11,3 +11,10 @@ $cousine: 'Cousine', monospace;
 $blue-text: rgb(3, 22, 56);
 $blue-div-color:rgba(141, 153, 189, 0.548);
 $blue-border:rgb(17, 91, 175);
+
+//@mixins
+
+@mixin display-main-par(){
+    display:flex;
+    flex-wrap: wrap;
+}
