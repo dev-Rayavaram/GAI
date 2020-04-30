@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+/* ////////Reacts stuff above /// */
+.bioConatiner{
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  border: solid black;
+  flex-direction: column;
+  justify-content: start;
+  background-color: #eedfe8;
+}
+
+
+.exit{
+  text-align: right;
+  float: right;
+  margin-left: 96%;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 130px;
+  background-color: #eeecec;
+
+}
+
