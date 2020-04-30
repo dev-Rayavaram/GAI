@@ -3,8 +3,8 @@ import ReactDom from 'react-dom'
 const summary = document.getElementById('summary')
 
 function Summary(props){
-    let title = props.state.title;
-    let paragraph = props.state.paragraph;
+    let paragraph = props.state;
+    console.log(props)
     return ReactDom.createPortal(
         <div style={{
                 position:'absolute',
@@ -15,10 +15,11 @@ function Summary(props){
                 alignItems:'center',
                 backgroundColor:'lightgray',
                 width:'400px',
-                height:'300px'
+                height:'300px',
+                scrollBehavior:'auto'
              }} onClick={props.onClose}>
             <h1>
-                {title}
+               "Conclusion"
             </h1>
             <p>{paragraph}</p>
         </div>
