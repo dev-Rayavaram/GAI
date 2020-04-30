@@ -8,7 +8,7 @@ function Navbar(){
       <div className='nav-bar'>
          <ul className='links-container' >
           <li><Link className='nav-link' to='/'>Home</Link></li>
-          <li><Link className='nav-link' to='/more-info'>info</Link></li>
+          <li><Link className='nav-link' to='/summery'>Summery</Link></li>
         </ul>
       </div>
     )
