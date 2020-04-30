@@ -1,14 +1,29 @@
 @import  "ReusableComponents";
 
 #landing-page-main-div{
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+margin: 55px;
+}
+#summary-title-landing-page-div{
+    text-align: center;
+    border:outset 4px $blue-border;
+    background-color: $blue-div-color;
+    padding: 15px;
 
 }
 #title-landing-page{
-
+font-size: 35px;
+font-family: $gentium;
+color:$blue-text;
 }
-#summary-landing-page-div{
 
-}
 #summary-landing-page-p{
-
+text-align: center;
+font-family: $gentium;
+font-size: 25px;
+font-weight: 200;
+color:$blue-text;
 }

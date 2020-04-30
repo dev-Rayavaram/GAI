@@ -1,4 +1,5 @@
 import React from 'react'
+import "../Style/Home.scss"
 
 
 export default class  Author extends React.Component{
@@ -9,13 +10,10 @@ export default class  Author extends React.Component{
   
       } 
     }
-    bioPopUp = () => {
-      this.setState({on : !this.state.on})
-    }
   
     render(){
       return (
-        <div className="author">
+        <div id="author">
           <h1 className='authorsName' onClick={this. bioPopUp}>
           Mark Latonero
           </h1>
