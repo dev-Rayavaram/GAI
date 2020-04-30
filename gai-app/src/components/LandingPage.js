@@ -7,7 +7,8 @@ import "../Style/Home.scss"
 
 function LandingPage(){
     return(
-        <div id='landing-page-main-div'>
+        <div id='landing-page-main-div'> 
+         <Author />
            <div id="summary-title-landing-page-div">
                 <h1 id='title-landing-page'> 
                     Governing Artificial Intelligence:Upholding Human Rights & Dignity
@@ -24,7 +25,7 @@ function LandingPage(){
                     less of country or jurisdiction." - Mark Latonero
                     </p>
             </div>
-            <Author />
+          
         </div>
     )
 }

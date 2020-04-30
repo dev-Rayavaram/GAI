@@ -2,7 +2,7 @@
 
 //LandingPage.js
 #landing-page-main-div{
-@include display-main-par();
+@include display-flex();
 align-items: center;
 flex-direction: column;
 margin: 55px;
@@ -15,29 +15,62 @@ margin: 55px;
 
 }
 #title-landing-page{
-font-size: 35px;
-font-family: $gentium;
-color:$blue-text;
+@include title();
 }
 
 #summary-landing-page-p{
-text-align: center;
-font-family: $gentium;
-font-size: 25px;
-font-weight: 200;
-color:$blue-text;
+@include p-landing-page-text();
 }
 
 //Author.js
 
 #author-div{
-    @include display-main-par();
+    @include display-flex();
+    flex-direction: column;
+    border:outset 4px $blue-border;
+    background-color: $blue-div-color;
+    margin-bottom: 50px;
+    align-items: center;
 }
-#author-name-h1
-#bio-and-photo-div
-#bio-p
-#data-and-society-link
-#author-photo
-#author-contacts-ul
-.author-contacts-li
-.author-contacts-links
+#author-name-h1{
+    @include title();
+}
+#bio-and-photo-div{
+    @include display-flex();
+    flex-direction: row;
+    margin-top: -35px;
+    @include p-landing-page-text();
+    padding: 25px;
+
+}
+#bio-p{
+    width: 550px;
+    height: auto;
+}
+#data-and-society-link{
+color:$blue-text;
+}
+#author-photo{
+ width: auto;
+ height: auto;
+ margin-right: 50px;
+}
+#author-contacts-ul{
+ list-style:none;
+ @include display-flex();
+ flex-direction: row;
+}
+.author-contacts-li{
+margin-right:55px;
+}
+.author-contacts-links{
+    color:$blue-text;
+}
+
+.author-contacts-links:hover{
+color: rgb(220, 232, 255);
+}
+
+#data-and-society-link:hover{
+    color: rgb(220, 232, 255);
+}
