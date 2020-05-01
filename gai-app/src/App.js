@@ -1,5 +1,5 @@
 import React from 'react';
-import "./style/App.scss"
+import "./Style/App.scss"
 import LandingPage from './components/LandingPage'
 import Navbar from './components/Navbar'
 import Summary from './components/Summary'

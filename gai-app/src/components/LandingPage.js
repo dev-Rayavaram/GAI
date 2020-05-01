@@ -1,6 +1,6 @@
 import React from 'react'
 import Author from './Author'
-import "../style/Home.scss"
+import "../Style/Home.scss"
 
 
 
