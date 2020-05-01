@@ -1,15 +1,11 @@
 import React from 'react'
 import "../style/Home.scss"
 
-
+//brief bio of the author and his  work
+//component is the  info/profile like name,  contacts, and other works 
+// contact and other works are anchor tag to external links 
 export default class  Author extends React.Component{
-    constructor(props){
-      super(props)
-      this.state={
-        on: false
   
-      } 
-    }
   
     render(){
       return (
