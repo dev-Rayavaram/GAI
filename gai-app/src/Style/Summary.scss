@@ -1,0 +1,51 @@
+@import  "ReusableComponents";
+
+#main-div-summary{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 25px;
+}
+
+#business-div-summary{
+    @include summary-divs();
+}
+
+#cs-div-summary{
+    @include summary-divs();
+    margin-left: 15px;
+}
+
+#government-div-summary{
+    @include summary-divs();
+    
+}
+
+#un-div-summary{
+    @include summary-divs();
+    margin-left: 15px;
+}
+
+#academia-div-summary{
+    @include summary-divs();
+}
+
+#robot-summary{
+    width: 550px;
+    height: 445px;
+}
+
+#img-summary-div{
+    @include display-flex();
+    justify-content: flex-end;
+}
+
+.h3-summary-class{
+    @include title();
+    font-size: 25px;
+
+}
+
+.p-summary-class{
+    @include p-text();
+}

@@ -1,22 +1,23 @@
 @import  "ReusableComponents";
 
 //LandingPage.js
+
 #landing-page-main-div{
-@include display-flex();
-align-items: center;
-flex-direction: column;
-margin: 55px;
+    @include display-flex();
+    align-items: center;
+    flex-direction: column;
+    margin: 55px;
 }
+
 #summary-title-landing-page-div{
     text-align: center;
     border:outset 4px $blue-border;
     background-color: $blue-div-color;
     padding: 15px;
-
 }
 
 #title-landing-page{
-@include title();
+    @include title();
 }
 
 #report-link{
@@ -27,11 +28,11 @@ margin: 55px;
 }
 
 #report-link:hover{
-color:$hover-links;
+    color:$hover-links;
 }
 
 #summary-landing-page-p{
-@include p-landing-page-text();
+    @include p-text();
 }
 
 //Author.js
@@ -44,55 +45,60 @@ color:$hover-links;
     margin-bottom: 50px;
     align-items: center;
 }
+
 #author-name-h1{
     @include title();
 }
+
 #bio-and-photo-div{
     @include display-flex();
     flex-direction: row;
     margin-top: -35px;
-    @include p-landing-page-text();
+    @include p-text();
     padding: 25px;
 
 }
+
 #bio-p{
     width: 550px;
     height: auto;
-}
-#data-and-society-link{
-color:$blue-text;
-}
-#author-photo{
- width: auto;
- height: auto;
- margin-right: 50px;
- 
+    text-align: start;
 }
 
+#data-and-society-link{
+    color:$blue-text;
+}
+
+#author-photo{
+    width: auto;
+    height: auto;
+    margin-right: 50px;
+}
 
 #hand-img-contacts{
     @include display-flex();
     flex-direction: row;
-
 }
+
 #hand-img{
     width: 400px;
     height: 150px;
     margin-left: 200px;
     margin-top: -80px;
-    }
+}
 
 #author-contacts-ul{
- list-style:none;
- @include display-flex();
- flex-direction: row;
- margin-left: 15px;
-
+    list-style:none;
+    @include display-flex();
+    flex-direction: row;
+    margin-left: 15px;
 }
+
 .author-contacts-li{
-margin-right:55px;
+    margin-right:55px;
 
 }
+
 .author-contacts-links{
     color:$blue-text;
     font-size: 20px;
@@ -101,7 +107,7 @@ margin-right:55px;
 }
 
 .author-contacts-links:hover{
-color: $hover-links;
+    color: $hover-links;
 }
 
 #data-and-society-link:hover{

@@ -19,16 +19,25 @@ $blue-border:rgb(17, 91, 175);
     flex-wrap: wrap;
 }
 
-@mixin p-landing-page-text(){
-text-align: center;
-font-family: $gentium;
-font-size: 25px;
-font-weight: 200;
-color:$blue-text;
+@mixin p-text(){
+    text-align: center;
+    font-family: $gentium;
+    font-size: 25px;
+    font-weight: 200;
+    color:$blue-text;
 }
 
 @mixin  title() {
-font-size: 35px;
-font-family: $gentium;
-color:$blue-text;
+    font-size: 35px;
+    font-family: $gentium;
+    color:$blue-text;
 }
+
+@mixin summary-divs(){
+    text-align: center;
+    border: outset 4px $blue-border;
+    background-color: $blue-div-color;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
