@@ -26,8 +26,12 @@ export default class  Author extends React.Component{
             <a id="data-and-society-link" href="https://datasociety.net/people/latonero-mark/"> Data & Society</a>
             </p>
           </div>
+          <div id="hand-img-contacts">
+
+          
+          
           <ul id='author-contacts-ul'>
-                <li className="author-contacts-li">
+                 <li className="author-contacts-li">
                     <a className="author-contacts-links" href='https://twitter.com/latonero?lang=en'>Twitter</a>
                 </li>
 
@@ -37,13 +41,9 @@ export default class  Author extends React.Component{
                <li className="author-contacts-li" >
                      <a className="author-contacts-links" href='https://latonero.com/'>Personal WebPage</a>
                </li>
-
-            </ul>
-  
-
-
-
-
+                </ul>
+                <img id="hand-img" src={require("../img/hand.png")} />
+      </div>
         </div>
       );
   

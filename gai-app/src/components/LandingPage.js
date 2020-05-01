@@ -8,7 +8,8 @@ import "../Style/Home.scss"
 function LandingPage(){
     return(
         <div id='landing-page-main-div'> 
-         <Author />
+         
+        <Author />
            <div id="summary-title-landing-page-div">
                 <h1 id='title-landing-page'> 
                     Governing Artificial Intelligence:Upholding Human Rights & Dignity

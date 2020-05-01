@@ -1,2 +1,16 @@
 @import  "ReusableComponents";
 
+#nav-bar{
+border-bottom: groove 4px $blue-border;
+background-color: rgb(141, 153, 189);
+margin-top:- 20px;
+padding: 10px;
+
+}
+#links-nav-ul{
+    @include display-flex();
+    flex-direction: row;
+}
+.nav-link-li{
+
+}

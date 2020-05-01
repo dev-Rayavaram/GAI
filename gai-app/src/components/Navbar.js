@@ -5,10 +5,10 @@ import "../Style/Navigation.scss"
 
 function Navbar(){
     return (
-      <div className='nav-bar'>
-         <ul className='links-container' >
-          <li><Link className='nav-link' to='/'>Home</Link></li>
-          <li><Link className='nav-link' to='/summary'>Summary</Link></li>
+      <div id='nav-bar'>
+         <ul id='links-nav-ul' >
+          <li><Link className='nav-link-li' to='/'>Home</Link></li>
+          <li><Link className='nav-link-li' to='/summary'>Summary</Link></li>
         </ul>
       </div>
     )
