@@ -19,7 +19,7 @@ function LandingPage(){
                         are already violating fundamental rights and freedoms. As stakeholders look for
                         a North Star to guide AI development, we can rely on human rights to help chart the
                         course ahead. International human rights are a powerful tool for identifying, preventing, 
-                           and redressing an important class of risks and harms. A human rights-based
+                        and redressing an important class of risks and harms. A human rights-based
                         frame could provide those developing AI with the aspirational, normative, and legal
                         guidance to uphold human dignity and the inherent worth of every individual regardless 
                         of country or jurisdiction." - Mark Latonero
