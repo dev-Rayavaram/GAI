@@ -3,13 +3,7 @@ import "../Style/Home.scss"
 
 
 export default class  Author extends React.Component{
-    constructor(props){
-      super(props)
-      this.state={
-        on: false
-  
-      } 
-    }
+    
   
     render(){
       return (
