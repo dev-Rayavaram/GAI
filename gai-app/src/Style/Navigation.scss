@@ -1,0 +1,29 @@
+@import  "ReusableComponents";
+
+#nav-bar{
+border-bottom: groove 4px $blue-border;
+background-color: rgb(141, 153, 189);
+margin-top:- 20px;
+
+}
+#links-nav-ul{
+    @include display-flex();
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15px;
+ 
+}
+.nav-link-li{
+list-style: none;
+color: rgb(189, 220, 245);
+font-style: none;
+font-size: 25px;
+font-family: $cinzel;
+font-weight: bolder;
+}
+
+.nav-link-li:hover{
+    color: rgb(84, 211, 243);
+}
+

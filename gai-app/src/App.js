@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import "./Style/App.scss"
 import LandingPage from './components/LandingPage'
 import Navbar from './components/Navbar'
 import Page from './components/Page'
@@ -10,12 +10,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
               <Navbar />
-             
-
-
               <Switch>
                 <Route path = '/' exact component = {LandingPage} />
-                <Route path ='/summery' component={Page} /> 
+                <Route path ='/summary' component={Page} /> 
               </Switch>
           </BrowserRouter> 
     </div>

@@ -1,0 +1,34 @@
+//fonts
+$rokkitt: 'Rokkitt', serif;
+$cinzel: 'Cinzel', serif;
+$alef: 'Alef', sans-serif;
+$gentium: 'Gentium Book Basic', serif;
+$ibm: 'IBM Plex Mono', monospace;
+$cousine: 'Cousine', monospace;
+
+//colors
+$hover-links:rgb(150, 231, 245);
+$blue-text: rgb(3, 22, 56);
+$blue-div-color:rgba(141, 153, 189, 0.548);
+$blue-border:rgb(17, 91, 175);
+
+//@mixins
+
+@mixin display-flex(){
+    display:flex;
+    flex-wrap: wrap;
+}
+
+@mixin p-landing-page-text(){
+text-align: center;
+font-family: $gentium;
+font-size: 25px;
+font-weight: 200;
+color:$blue-text;
+}
+
+@mixin  title() {
+font-size: 35px;
+font-family: $gentium;
+color:$blue-text;
+}

@@ -1,0 +1,110 @@
+@import  "ReusableComponents";
+
+//LandingPage.js
+#landing-page-main-div{
+@include display-flex();
+align-items: center;
+flex-direction: column;
+margin: 55px;
+}
+#summary-title-landing-page-div{
+    text-align: center;
+    border:outset 4px $blue-border;
+    background-color: $blue-div-color;
+    padding: 15px;
+
+}
+
+#title-landing-page{
+@include title();
+}
+
+#report-link{
+    color:$blue-text;
+    font-family:$rokkitt;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#report-link:hover{
+color:$hover-links;
+}
+
+#summary-landing-page-p{
+@include p-landing-page-text();
+}
+
+//Author.js
+
+#author-div{
+    @include display-flex();
+    flex-direction: column;
+    border:outset 4px $blue-border;
+    background-color: $blue-div-color;
+    margin-bottom: 50px;
+    align-items: center;
+}
+#author-name-h1{
+    @include title();
+}
+#bio-and-photo-div{
+    @include display-flex();
+    flex-direction: row;
+    margin-top: -35px;
+    @include p-landing-page-text();
+    padding: 25px;
+
+}
+#bio-p{
+    width: 550px;
+    height: auto;
+}
+#data-and-society-link{
+color:$blue-text;
+}
+#author-photo{
+ width: auto;
+ height: auto;
+ margin-right: 50px;
+ 
+}
+
+
+#hand-img-contacts{
+    @include display-flex();
+    flex-direction: row;
+
+}
+#hand-img{
+    width: 400px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: -80px;
+    }
+
+#author-contacts-ul{
+ list-style:none;
+ @include display-flex();
+ flex-direction: row;
+ margin-left: 15px;
+
+}
+.author-contacts-li{
+margin-right:55px;
+
+}
+.author-contacts-links{
+    color:$blue-text;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: $rokkitt;
+}
+
+.author-contacts-links:hover{
+color: $hover-links;
+}
+
+#data-and-society-link:hover{
+    color: $hover-links;
+}
+

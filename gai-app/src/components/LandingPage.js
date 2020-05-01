@@ -1,8 +1,20 @@
 import React from 'react'
 import Author from './Author'
+import "../Style/Home.scss"
 
-const summary = <div className='summary'>
-                    <p>" Can international human rights help guide and govern artificial intelligence (AI)?
+
+
+
+function LandingPage(){
+    return(
+        <div id='landing-page-main-div'> 
+         
+        <Author />
+           <div id="summary-title-landing-page-div">
+                <h1 id='title-landing-page'> 
+                    Governing Artificial Intelligence:Upholding Human Rights & Dignity
+                </h1>
+                    <p id="summary-landing-page-p">"Can international human rights help guide and govern artificial intelligence (AI)?
                     Currently, much of society is uncertain about the real human impacts of AI systems.
                     Amid hopes that AI can bring forth “global good” there is evidence that some AI sys-
                     tems are already violating fundamental rights and freedoms. As stakeholders look for
@@ -11,23 +23,11 @@ const summary = <div className='summary'>
                     ing, and redressing an important class of risks and harms. A human rights-based
                     frame could provide those developing AI with the aspirational, normative, and legal
                     guidance to uphold human dignity and the inherent worth of every individual regard-
-                    less of country or jurisdiction." 
-                    </p>
-                </div>
-
-
-function LandingPage(){
-    return(
-        <div className='landing-Page'>
-            <h1 className='title'> 
-            Governing Artificial Intelligence:Upholding Human Rights & Dignity
-            </h1>
-
-            {summary}
-
-            <Author />
-           
-
+                    less of country or jurisdiction." - Mark Latonero
+                     </p>
+                     <a id="report-link" href="https://datasociety.net/wp-content/uploads/2018/10/DataSociety_Governing_Artificial_Intelligence_Upholding_Human_Rights.pdf">Click here to see complete report </a>
+            </div>
+          
         </div>
     )
 }
