@@ -19,6 +19,17 @@ margin: 55px;
 @include title();
 }
 
+#report-link{
+    color:$blue-text;
+    font-family:$rokkitt;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#report-link:hover{
+color:$hover-links;
+}
+
 #summary-landing-page-p{
 @include p-landing-page-text();
 }
@@ -55,6 +66,7 @@ color:$blue-text;
  width: auto;
  height: auto;
  margin-right: 50px;
+ 
 }
 
 
@@ -89,10 +101,10 @@ margin-right:55px;
 }
 
 .author-contacts-links:hover{
-color: rgb(220, 232, 255);
+color: $hover-links;
 }
 
 #data-and-society-link:hover{
-    color: rgb(220, 232, 255);
+    color: $hover-links;
 }
 

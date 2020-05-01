@@ -24,7 +24,8 @@ function LandingPage(){
                     frame could provide those developing AI with the aspirational, normative, and legal
                     guidance to uphold human dignity and the inherent worth of every individual regard-
                     less of country or jurisdiction." - Mark Latonero
-                    </p>
+                     </p>
+                     <a id="report-link" href="https://datasociety.net/wp-content/uploads/2018/10/DataSociety_Governing_Artificial_Intelligence_Upholding_Human_Rights.pdf">Click here to see complete report </a>
             </div>
           
         </div>
