@@ -1,6 +1,17 @@
 import React,{Component} from 'react';
 import "../Style/Summary.scss";
+/*
+create class component Page(we began with creating class component because we tried sending state to child components,summary page
+        //to display multiple modals for each section(but it didn't work for each section))
+  implement life cycle method render
+      procedure render
+          render all sections as div elements
+      end
+  export Page
 
+
+
+*/
 class Summary extends Component {
   
   render(){
