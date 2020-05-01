@@ -57,12 +57,7 @@ color:$blue-text;
  margin-right: 50px;
 }
 
-#author-contacts-ul{
- list-style:none;
- @include display-flex();
- flex-direction: row;
 
-}
 #hand-img-contacts{
     @include display-flex();
     flex-direction: row;
@@ -71,18 +66,27 @@ color:$blue-text;
 #hand-img{
     width: 400px;
     height: 150px;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: -80px;
     }
 
+#author-contacts-ul{
+ list-style:none;
+ @include display-flex();
+ flex-direction: row;
+
+
+}
 .author-contacts-li{
 margin-right:55px;
+
 }
 .author-contacts-links{
     color:$blue-text;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: $rokkitt;
 }
-
-
 
 .author-contacts-links:hover{
 color: rgb(220, 232, 255);
