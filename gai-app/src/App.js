@@ -2,7 +2,7 @@ import React from 'react';
 import "./Style/App.scss"
 import LandingPage from './components/LandingPage'
 import Navbar from './components/Navbar'
-import Summary from './components/Summary'
+import Summary from './components/summary'
 import { BrowserRouter, Route, Switch} from 'react-router-dom'
 
 function App() {
