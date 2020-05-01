@@ -2,7 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import "../style/Navigation.scss"
 
-// using react router to setup SPA with multiple links 
+// using react router to setup multiple links for our SPA
+
 
 function Navbar(){
     return (
