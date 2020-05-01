@@ -1,6 +1,9 @@
 import React from 'react'
 import "../Style/Home.scss"
 
+//brief bio of the author and his  work
+//component is the  info/profile like name,  contacts, and other works 
+// contact and other works are anchor tag to external links 
 
 export default class  Author extends React.Component{
     
