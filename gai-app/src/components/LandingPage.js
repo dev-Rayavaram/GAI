@@ -3,7 +3,9 @@ import Author from './Author'
 import "../Style/Home.scss"
 
 
-
+//brief intro of the authors work 
+// imports the author personal ino from another component 
+//  anchor tag to the official articles 
 
 function LandingPage(){
     return(
