@@ -1,6 +1,37 @@
 # Governing Artificial Intelligence
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Brief description of the report
+  Our GAI app showcases how Mark Latonero leverages human rights as a “North Star” to guide the development and governance of artificial intelligence.”
+
+## What is the purpose of the website
+  The purpose of our website is to bring awareness of human rights in AI issues.
+ 
+ 
+## Who is your audience
+  The intended audience include  technology companies, governments, intergovernmental organizations, civil society groups, academia, and the United Nations (UN) system.  In general, the audience are stakeholders looking to incorporate human rights into social and organizational contexts related to the development and governance of AI.
+
+## What features make your website unique 
+   Our team of software engineers combine ideas from a very diverse international tech and cultural background to design a very unique website.  Not only do our React engineering team built a solid foundation with responsive design and routers, our creative graphic director/designer also upgrades from the basic CSS requirement to include SASS.  She incorporates grid, flex, reusable components and @mixin seamlessly to make a visually impressive graphic art for the website.
+
+## Teammates and tasks they were responsible for 
+
+   Ravi(React engineering team) => team leader {create React App, Master Github repo,  React Design && Implementation + Pseudocode}
+   
+   Abdul(React engineering team) => {React Design && Implementation + Pseudocode}
+   
+   Olga(Creative graphic director) => Sass && graphic design
+   
+   Polly(Marketing director) => Wireframe && README
+
+![wireframe](/wireframep1.png)
+![wireframe](/wireframep2.png)
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
