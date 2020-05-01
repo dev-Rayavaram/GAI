@@ -40,8 +40,8 @@ class Summary extends Component {
                 <p className="p-summary-class">
                   UN human rights investigators and special rapporteurs should continue researching
                   and publicizing the human rights impacts resulting from AI systems. UN officials and
-                  participating governments should evaluate whether existing UN mechanisms for inter-
-                  national rights monitoring, accountability, and redress are adequate to respond to AI
+                  participating governments should evaluate whether existing UN mechanisms for international
+                  rights monitoring, accountability, and redress are adequate to respond to AI
                   and other rapidly emerging technologies. UN leadership should also assume a central
                   role in international technology debates by promoting shared global values based on
                   fundamental rights and human dignity.
