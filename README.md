@@ -16,10 +16,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Teammates and tasks they were responsible for 
 
-   Ravi(React engineering team) => team leader {create React App, Master Github repo,  ½ React Design && Implementation + ½ Pseudocode}
-   Abdul(React engineering team) => {½ React Design && Implementation + ½    Pseudocode}
+   Ravi(React engineering team) => team leader {create React App, Master Github repo,  React Design && Implementation + Pseudocode}
+   
+   Abdul(React engineering team) => {React Design && Implementation + Pseudocode}
+   
    Olga(Creative graphic director) => Sass && graphic design
+   
    Polly(Marketing director) => Wireframe && README
+
+![wireframe](/wireframep1.png)
+![wireframe](/wireframep2.png)
+
 
 
 
