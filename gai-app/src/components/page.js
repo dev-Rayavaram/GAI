@@ -1,23 +1,7 @@
 import React,{Component} from 'react';
-import Summary from './summary'
 
-const summaryPage = "Today’s AI debates are searching for principles to govern emerging and future technological systems for the common good. If the “good” involves upholding human dignity, then the international human rights system is fit for purpose. If AI researchers,developers, and designers work to protect and respect fundamental human rights,they could open the path for broad social benefit. To disregard human rights would be to close off that path."
 class Page extends Component {
-  constructor(props){
-    super(props)
-    this.state={
-      showModel:false,
-      summary:summaryPage
-    }
-    this.handleShowSummary = this.handleShowSummary.bind(this)
-    this.handleHideSummary = this.handleHideSummary.bind(this)
-  }
-    handleShowSummary(){
-      this.setState({showModel:true})
-    }
-    handleHideSummary(){
-      this.setState({showModel:false})
-    }  
+  
   render(){
     return (
             <div>
@@ -30,11 +14,9 @@ class Page extends Component {
                       ADDITIONAL PERSPECTIVE.
                   </p>
                 </div>
-                <button  key='id1' onClick={this.handleShowSummary}>Show</button>
-                {this.state.showModel?(
-                    <Summary onClose={this.handleHideSummary} state={this.state.summary}/>
-                ):
-                null}
+               <div>
+                Technology companies should find effective channels of communication with local civil society groups and researchers – particularly in geographic areas where human rights concerns are high – in order to identify and respond to risks related to AI deployments.
+               </div>
             </div>
             <div>
                 <div>
@@ -46,11 +28,9 @@ class Page extends Component {
                       POTENTIAL RISKS AND HARMS.
                   </p>
                 </div>
-                <button  key='id1' onClick={this.handleShowSummary}>Show</button>
-                {this.state.showModel?(
-                    <Summary onClose={this.handleHideSummary} state={this.state.summary}/>
-                ):
-                null}
+                <div>
+                  Technology companies and researchers should conduct HRIAs throughout the lifecycle of their AI systems. Researchers should reevaluate HRIA methodology for AI,particularly in light of new developments in algorithmic impact assessments. Toolkits should be developed to assess specific industry needs.
+                </div>
             </div>
             <div>
                 <div>
@@ -61,11 +41,9 @@ class Page extends Component {
                       MANY OF THESE EFFORTS.
                   </p>
                 </div>
-                <button  key='id1' onClick={this.handleShowSummary}>Show</button>
-                {this.state.showModel?(
-                    <Summary onClose={this.handleHideSummary} state={this.state.summary}/>
-                ):
-                null}
+                <div>
+                    Governments should acknowledge their human rights obligations and incorporateduty to protect fundamental rights in national AI policies, guidelines, and possible regulations. Governments can play a more active role in multilateral institutions, like the UN,to advocate for AI development that respects human rights.
+                </div>
             </div>
             <div>
                 <div>
@@ -78,11 +56,17 @@ class Page extends Component {
                       STRATEGY ON NEW TECHNOLOGY.
                   </p>
                 </div>
-                <button  key='id1' onClick={this.handleShowSummary}>Show</button>
-                {this.state.showModel?(
-                    <Summary onClose={this.handleHideSummary} state={this.state.summary}/>
-                ):
-                null}
+                <div>
+                      UN human rights investigators and special rapporteurs should continue researching
+                      and publicizing the human rights impacts resulting from AI systems. UN officials and
+
+                      participating governments should evaluate whether existing UN mechanisms for inter-
+                      national rights monitoring, accountability, and redress are adequate to respond to AI
+
+                      and other rapidly emerging technologies. UN leadership should also assume a central
+                      role in international technology debates by promoting shared global values based on
+                      fundamental rights and human dignity.
+                </div>
             </div>
             <div>
                 <div>
@@ -95,11 +79,6 @@ class Page extends Component {
                       MEMBER COUNTRIES.87
                   </p>
                 </div>
-                <button  key='id1' onClick={this.handleShowSummary}>Show</button>
-                {this.state.showModel?(
-                    <Summary onClose={this.handleHideSummary} state={this.state.summary}/>
-                ):
-                null}
             </div>
             <div>
                 <div>
@@ -112,11 +91,14 @@ class Page extends Component {
                       AND ETHICS, TECHNICAL DEVELOPMENT, AND POLICY.
                   </p>
                 </div>
-                <button  key='id1' onClick={this.handleShowSummary}>Show</button>
-                {this.state.showModel?(
-                    <Summary onClose={this.handleHideSummary} state={this.state.summary}/>
-                ):
-                null}
+                <div>
+                    Academics should further examine the value, limitations, and interactions between hu-
+                    man rights law and human dignity approaches; humanitarian law; and ethics in relation
+                    to emerging AI technologies. Human rights and legal scholars should work with other
+                    stakeholders on the tradeoffs between rights when faced with specific AI risks and
+                    harms. Social science researchers should empirically investigate the on-the-ground
+                    impact of AI on human rights.
+                </div>
             </div>
 
          </div>
@@ -125,3 +107,4 @@ class Page extends Component {
 }
 
 export default Page;
+
