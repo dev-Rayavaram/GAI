@@ -26,7 +26,7 @@ class Summary extends Component {
               <div id="cs-div-summary">
                 <h3 className="h3-summary-class">CIVIL SOCIETY</h3>
                 <p className="p-summary-class">
-                  Technology companies and researchers should conduct HRIAs throughout the lifecycle of their AI systems. Researchers should reevaluate HRIA methodology for AI,particularly in light of new developments in algorithmic impact assessments. Toolkits should be developed to assess specific industry needs.
+                  Technology companies and researchers should conduct HRIAs throughout the lifecycle of their AI systems. Researchers should reevaluate HRIA methodology for AI, particularly in light of new developments in algorithmic impact assessments. Toolkits should be developed to assess specific industry needs.
                 </p>
               </div>
               <div id="government-div-summary">
@@ -40,10 +40,8 @@ class Summary extends Component {
                 <p className="p-summary-class">
                   UN human rights investigators and special rapporteurs should continue researching
                   and publicizing the human rights impacts resulting from AI systems. UN officials and
-
                   participating governments should evaluate whether existing UN mechanisms for inter-
                   national rights monitoring, accountability, and redress are adequate to respond to AI
-
                   and other rapidly emerging technologies. UN leadership should also assume a central
                   role in international technology debates by promoting shared global values based on
                   fundamental rights and human dignity.
@@ -52,8 +50,8 @@ class Summary extends Component {
               <div id="academia-div-summary">
                 <h3 className="h3-summary-class">ACADEMIA</h3>
                 <p className="p-summary-class">
-                  Academics should further examine the value, limitations, and interactions between hu-
-                  man rights law and human dignity approaches; humanitarian law; and ethics in relation
+                  Academics should further examine the value, limitations, and interactions between human
+                  rights law and human dignity approaches; humanitarian law; and ethics in relation
                   to emerging AI technologies. Human rights and legal scholars should work with other
                   stakeholders on the tradeoffs between rights when faced with specific AI risks and
                   harms. Social science researchers should empirically investigate the on-the-ground
