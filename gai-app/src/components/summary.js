@@ -26,8 +26,7 @@ class Summary extends Component {
               <div id="cs-div-summary">
                 <h3 className="h3-summary-class">CIVIL SOCIETY</h3>
                 <p className="p-summary-class">
-                  Technology companies and researchers should conduct HRIAs throughout the lifecycle of their AI systems. Researchers should reevaluate HRIA methodology for AI, particularly in light of new developments in algorithmic impact assessments. Toolkits should be developed to assess specific industry needs.
-                </p>
+                WHILE SOME MAJOR INTERNATIONAL HUMAN RIGHTS ORGANIZATIONS ARE STARTING TO FOCUS ON AI,ADDITIONAL ATTENTION IS NEEDED FROM CIVIL SOCIETY ON POTENTIAL RISKS AND HARMS.</p>
               </div>
               <div id="government-div-summary">
                 <h3 className="h3-summary-class">GOVERNMENTS</h3>
